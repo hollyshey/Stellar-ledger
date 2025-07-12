@@ -1,0 +1,3 @@
+from src.state import AccountEntry
+acct = AccountEntry(account_id="GABCD…", balance=1000.0)
+print(acct.serialize())
